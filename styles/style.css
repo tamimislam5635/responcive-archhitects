@@ -131,11 +131,40 @@ main{
    font-weight: 500;
 }
 
+/* features section related style  */
+.features{
+    gap: 140px;
+}
+
+#feature-section-title{
+    border-left: 5px solid #FF900e;
+    padding-left: 20px;
+}
+
+.feature-card{
+   padding: 30px;
+   border: 8px;
+   box-shadow: 0 4px 30px o rgba(0, 0, 0, 0.59);
+   margin-bottom: 20px;
+   
+}  
+
+
+.feature-card, .feature-title{
+   font-weight: 600;
+   font-size: 1.25rem;
+   margin-top:0px ;
+   margin-bottom: 0px;
+  
+}
+
+
 
 /* some facts related styles */
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    
 }
 
  
